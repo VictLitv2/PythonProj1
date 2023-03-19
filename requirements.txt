@@ -1,0 +1,4 @@
+lxml  == 4.9.2
+requests == 2.28.2
+justext == 3.0.0
+BeautifulSoup == 3.2.2
