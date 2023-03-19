@@ -1,0 +1,4 @@
+venv
+.idea
+search/__pycache__
+guess/__pycache__
