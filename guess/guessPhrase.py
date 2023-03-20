@@ -86,7 +86,7 @@ def guess_random_phrase(phrase):
     guessed_phrase_to_show = None
 
     while phrases_are_equal(phrase, user_decrypted_phrase) == False:
-        user_symbol = input("Please enter symbol exists in guessed phrase")
+        user_symbol = input("Please enter symbol exists in guessed phrase:")
 
         all_guessed_indexes = build_all_guessed_indexes_for_phrase(phrase, user_symbol)
 
